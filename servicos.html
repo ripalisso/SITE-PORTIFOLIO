@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Serviços — AlissoEdita</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="frame-line outer"></div>
+<div class="frame-line inner"></div>
+
+<header>
+  <nav>
+    <a href="index.html" class="logo"><img src="logo.jpg" alt="AlissoEdita">ALISSO<span>EDITA</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html" data-i18n="nav_home">Início</a></li>
+      <li><a href="servicos.html" class="active" data-i18n="nav_services">Serviços</a></li>
+      <li><a href="portfolio.html" data-i18n="nav_portfolio">Portfólio</a></li>
+      <li><a href="contato.html" class="nav-cta" data-i18n="nav_contact">Contato</a></li>
+    </ul>
+    <div class="lang-switch">
+      <button class="lang-btn" data-lang="pt">PT</button>
+      <button class="lang-btn active" data-lang="en">EN</button>
+    </div>
+    <button class="burger" id="burger"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow" data-i18n="services_eyebrow">Serviços</span>
+    <h1 data-i18n="services_h1">No que eu ajudo</h1>
+    <p data-i18n="services_sub">Três frentes, um objetivo: prender atenção do primeiro ao último segundo.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <span class="idx" data-i18n="service1_idx">Streamer</span>
+        <h3 data-i18n="service1_title">Clipes de Live</h3>
+        <p data-i18n="service1_desc">Corto suas melhores jogadas e momentos de live em clipes prontos pra TikTok, Reels e Shorts.</p>
+      </div>
+      <div class="service-card reveal">
+        <span class="idx" data-i18n="service2_idx">Vertical</span>
+        <h3 data-i18n="service2_title">Shorts &amp; Reels</h3>
+        <p data-i18n="service2_desc">Corte e narrativa pensados pro formato vertical, do gancho nos 3 primeiros segundos até o final.</p>
+      </div>
+      <div class="service-card reveal">
+        <span class="idx" data-i18n="service3_idx">Motion</span>
+        <h3 data-i18n="service3_title">Motion Graphics</h3>
+        <p data-i18n="service3_desc">Vinhetas, lower thirds e transições animadas pra deixar seu canal com cara de profissional.</p>
+      </div>
+    </div>
+    <div class="services-cta reveal">
+      <a href="contato.html" class="btn btn-primary" data-i18n="services_cta_btn">Bora fazer um projeto</a>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <span>© 2026 AlissoEdita</span>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

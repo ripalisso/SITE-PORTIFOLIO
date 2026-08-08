@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato — AlissoEdita</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="frame-line outer"></div>
+<div class="frame-line inner"></div>
+
+<header>
+  <nav>
+    <a href="index.html" class="logo"><img src="logo.jpg" alt="AlissoEdita">ALISSO<span>EDITA</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html" data-i18n="nav_home">Início</a></li>
+      <li><a href="servicos.html" data-i18n="nav_services">Serviços</a></li>
+      <li><a href="portfolio.html" data-i18n="nav_portfolio">Portfólio</a></li>
+      <li><a href="contato.html" class="active nav-cta" data-i18n="nav_contact">Contato</a></li>
+    </ul>
+    <div class="lang-switch">
+      <button class="lang-btn" data-lang="pt">PT</button>
+      <button class="lang-btn active" data-lang="en">EN</button>
+    </div>
+    <button class="burger" id="burger"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow" data-i18n="contact_eyebrow">Contato</span>
+    <h1 data-i18n="contact_h1">Bora colocar seu conteúdo pra render?</h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="contact-box reveal">
+      <p data-i18n="contact_desc">Me chama e conta o que você precisa — clipe de live, short ou motion. Respondo rápido.</p>
+      <div class="contact-links">
+        <a href="https://wa.me/5542984345331" target="_blank" class="contact-link">
+          <span class="handle">+55 42 98434-5331</span><span class="plat">WhatsApp</span>
+        </a>
+        <button type="button" class="contact-link copy-trigger" data-copy="alissoeditor@gmail.com">
+          <span class="handle">alissoeditor@gmail.com</span><span class="plat" data-i18n="contact_gmail_plat">Gmail · toque pra copiar</span>
+        </button>
+        <a href="https://instagram.com/alissoedita" target="_blank" class="contact-link">
+          <span class="handle">@alissoedita</span><span class="plat">Instagram</span>
+        </a>
+        <a href="https://twitter.com/alissoedita" target="_blank" class="contact-link">
+          <span class="handle">@alissoedita</span><span class="plat">Twitter</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <span>© 2026 AlissoEdita</span>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

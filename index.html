@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AlissoEdita — Editor de Vídeo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="frame-line outer"></div>
+<div class="frame-line inner"></div>
+
+<header>
+  <nav>
+    <a href="index.html" class="logo"><img src="logo.jpg" alt="AlissoEdita">ALISSO</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active" data-i18n="nav_home">Início</a></li>
+      <li><a href="servicos.html" data-i18n="nav_services">Serviços</a></li>
+      <li><a href="portfolio.html" data-i18n="nav_portfolio">Portfólio</a></li>
+      <li><a href="contato.html" class="nav-cta" data-i18n="nav_contact">Contato</a></li>
+    </ul>
+    <div class="lang-switch">
+      <button class="lang-btn" data-lang="pt">PT</button>
+      <button class="lang-btn active" data-lang="en">EN</button>
+    </div>
+    <button class="burger" id="burger"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<section class="home-hero">
+  <div class="wrap home-hero-grid">
+    <div>
+      <span class="eyebrow reveal" data-i18n="home_eyebrow">Edição de vídeo</span>
+      <h1 class="reveal" data-i18n-html="home_title">EDIÇÃO QUE <em>PRENDE</em>.<br>CONTEÚDO QUE <em>CONVERTE</em>.</h1>
+      <p class="sub reveal" data-i18n="home_sub">Clipes de streamer, shorts verticais e motion graphics feitos pra parar o scroll.</p>
+      <div class="hero-ctas reveal">
+        <a href="portfolio.html" class="btn btn-primary" data-i18n="btn_view_portfolio">Ver portfólio</a>
+        <a href="contato.html" class="btn btn-outline" data-i18n="btn_start_project">Fazer um projeto</a>
+      </div>
+    </div>
+    <div class="avatar-frame reveal">
+      <img src="logo.jpg" alt="AlissoEdita">
+    </div>
+  </div>
+</section>
+
+<div class="wrap menu-grid">
+  <a href="servicos.html" class="menu-card reveal">
+    <h3 data-i18n="menu_services_title">Serviços</h3>
+    <p data-i18n="menu_services_desc">Clipes de streamer, shorts e motion graphics.</p>
+    <span class="arrow" data-i18n="menu_arrow">Ver mais →</span>
+  </a>
+  <a href="portfolio.html" class="menu-card reveal">
+    <h3 data-i18n="menu_portfolio_title">Portfólio</h3>
+    <p data-i18n="menu_portfolio_desc">Cortes e vídeos que já entreguei.</p>
+    <span class="arrow" data-i18n="menu_arrow">Ver mais →</span>
+  </a>
+  <a href="contato.html" class="menu-card reveal">
+    <h3 data-i18n="menu_contact_title">Contato</h3>
+    <p data-i18n="menu_contact_desc">Bora colocar seu conteúdo pra render.</p>
+    <span class="arrow" data-i18n="menu_arrow">Ver mais →</span>
+  </a>
+</div>
+
+<footer class="wrap">
+  <span>© 2026 AlissoEdita</span>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

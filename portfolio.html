@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfólio — AlissoEdita</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="frame-line outer"></div>
+<div class="frame-line inner"></div>
+
+<header>
+  <nav>
+    <a href="index.html" class="logo"><img src="logo.jpg" alt="AlissoEdita">ALISSO<span>EDITA</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html" data-i18n="nav_home">Início</a></li>
+      <li><a href="servicos.html" data-i18n="nav_services">Serviços</a></li>
+      <li><a href="portfolio.html" class="active" data-i18n="nav_portfolio">Portfólio</a></li>
+      <li><a href="contato.html" class="nav-cta" data-i18n="nav_contact">Contato</a></li>
+    </ul>
+    <div class="lang-switch">
+      <button class="lang-btn" data-lang="pt">PT</button>
+      <button class="lang-btn active" data-lang="en">EN</button>
+    </div>
+    <button class="burger" id="burger"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow" data-i18n="portfolio_eyebrow">Portfólio</span>
+    <h1 data-i18n="portfolio_h1">Trabalhos recentes</h1>
+    <p data-i18n="portfolio_sub">Clica em qualquer card pra assistir.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="filters reveal">
+      <button class="filter-btn active" data-filter="all" data-i18n="filter_all">Tudo</button>
+      <button class="filter-btn" data-filter="shorts" data-i18n="filter_shorts">Shorts</button>
+      <button class="filter-btn" data-filter="video" data-i18n="filter_videos">Vídeos</button>
+    </div>
+
+    <div id="portfolioGrid">
+      <!-- Cada card tem data-video (ID do YouTube) e data-format (short = vertical / video = horizontal).
+           Se quiser usar uma thumbnail própria em vez da capa automática do YouTube, adicione
+           data-thumb="nome-da-imagem.jpg" no card (coloque a imagem na mesma pasta do site). -->
+
+      <h3 class="group-title reveal" data-i18n="group_shorts">Shorts</h3>
+      <div class="grid-portfolio grid-shorts">
+        <div class="video-card reveal" data-category="shorts" data-format="short" data-video="tOj7jdE9Mng" data-thumb="thumb-short-renn.jpg">
+          <div class="thumb th-1"><span class="thumb-tag" data-i18n="tag_short">Short</span><div class="play"></div></div>
+          <div class="card-info"><h4 data-i18n="card1_title">Corte curto #1</h4><span data-i18n="card1_desc">Short · Formato vertical</span></div>
+        </div>
+        <div class="video-card reveal" data-category="shorts" data-format="short" data-video="GQi5kVarjUU" data-thumb="thumb-short-mysavlr.jpg">
+          <div class="thumb th-2"><span class="thumb-tag" data-i18n="tag_short">Short</span><div class="play"></div></div>
+          <div class="card-info"><h4 data-i18n="card2_title">Corte curto #2</h4><span data-i18n="card2_desc">Short · Formato vertical</span></div>
+        </div>
+      </div>
+
+      <h3 class="group-title reveal" data-i18n="group_videos">Vídeos completos</h3>
+      <div class="grid-portfolio grid-videos">
+        <div class="video-card reveal" data-category="video" data-format="video" data-video="gOqC-6lsiXs" data-thumb="thumb-video-valorant.jpg">
+          <div class="thumb th-3"><span class="thumb-tag" data-i18n="tag_video">Vídeo</span><div class="play"></div></div>
+          <div class="card-info"><h4 data-i18n="card3_title">Edição completa #1</h4><span data-i18n="card3_desc">Vídeo · Formato horizontal</span></div>
+        </div>
+        <div class="video-card reveal" data-category="video" data-format="video" data-video="zTlYlaxkSjo" data-thumb="thumb-video-spiderman.jpg">
+          <div class="thumb th-4"><span class="thumb-tag" data-i18n="tag_video">Vídeo</span><div class="play"></div></div>
+          <div class="card-info"><h4 data-i18n="card4_title">Edição completa #2</h4><span data-i18n="card4_desc">Vídeo · Formato horizontal</span></div>
+        </div>
+        <div class="video-card reveal" data-category="video" data-format="video" data-video="3PQFlH7Yt9w" data-thumb="thumb-video-mrbeast.jpg">
+          <div class="thumb th-5"><span class="thumb-tag" data-i18n="tag_video">Vídeo</span><div class="play"></div></div>
+          <div class="card-info"><h4 data-i18n="card5_title">Edição completa #3</h4><span data-i18n="card5_desc">Vídeo · Formato horizontal</span></div>
+        </div>
+        <div class="video-card reveal" data-category="video" data-format="video" data-video="I_zO1t2htOY" data-thumb="thumb-video-shiftmidnight.jpg">
+          <div class="thumb th-6"><span class="thumb-tag" data-i18n="tag_video">Vídeo</span><div class="play"></div></div>
+          <div class="card-info"><h4 data-i18n="card6_title">Edição completa #4</h4><span data-i18n="card6_desc">Vídeo · Formato horizontal</span></div>
+        </div>
+        <div class="video-card reveal" data-category="video" data-format="video" data-video="8XO0yZUgFIQ">
+          <div class="thumb th-1"><span class="thumb-tag" data-i18n="tag_video">Vídeo</span><div class="play"></div></div>
+          <div class="card-info"><h4 data-i18n="card7_title">Edição completa #5</h4><span data-i18n="card7_desc">Vídeo · Formato horizontal</span></div>
+        </div>
+        <div class="video-card reveal" data-category="video" data-format="video" data-video="xoy9uiiirpM" data-thumb="thumb-video-minecraft.jpg">
+          <div class="thumb th-2"><span class="thumb-tag" data-i18n="tag_video">Vídeo</span><div class="play"></div></div>
+          <div class="card-info"><h4 data-i18n="card8_title">Edição completa #6</h4><span data-i18n="card8_desc">Vídeo · Formato horizontal</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <span>© 2026 AlissoEdita</span>
+</footer>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-box">
+    <div class="modal-close">
+      <span data-i18n="modal_watching">Assistindo</span>
+      <button id="modalCloseBtn" aria-label="Fechar">&times;</button>
+    </div>
+    <div class="frame-wrap">
+      <iframe id="modalFrame" src="" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<script src="i18n.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
