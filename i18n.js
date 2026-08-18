@@ -19,8 +19,8 @@ const translations = {
     menu_arrow: "Ver mais →",
 
     services_eyebrow: "Serviços",
-    services_h1: "No que eu ajudo",
-    services_sub: "Três frentes, um objetivo: prender atenção do primeiro ao último segundo.",
+    services_h1: "O que eu ofereço",
+    services_sub: "Edição profissional para criadores de conteúdo, do corte à entrega final.",
     service1_idx: "Streamer",
     service1_title: "Clipes de Live",
     service1_desc: "Corto suas melhores jogadas e momentos de live em clipes prontos pra TikTok, Reels e Shorts.",
@@ -58,6 +58,8 @@ const translations = {
     card7_desc: "Vídeo · Streamer Docevtuber",
     card8_title: "Gameplay Minecraft",
     card8_desc: "Vídeo · Canal Masterzinn",
+    card9_title: "O PIOR esconderijo da história... deu certo - MECCHA CHAMELEON",
+    card9_desc: "Vídeo · Canal Mimin_Yang",
     modal_watching: "Assistindo",
 
     contact_eyebrow: "Contato",
@@ -85,8 +87,8 @@ const translations = {
     menu_arrow: "See more →",
 
     services_eyebrow: "Services",
-    services_h1: "What I help with",
-    services_sub: "Three focuses, one goal: hold attention from the first second to the last.",
+    services_h1: "What I offer",
+    services_sub: "Professional editing for content creators, from the first cut to final delivery.",
     service1_idx: "Streamer",
     service1_title: "Live Clips",
     service1_desc: "I cut your best plays and live moments into clips ready for TikTok, Reels and Shorts.",
@@ -124,6 +126,8 @@ const translations = {
     card7_desc: "Video · Streamer Docevtuber",
     card8_title: "Minecraft Gameplay",
     card8_desc: "Video · Masterzinn Channel",
+    card9_title: "The WORST hiding spot ever... it worked - MECCHA CHAMELEON",
+    card9_desc: "Video · Mimin_Yang Channel",
     modal_watching: "Watching",
 
     contact_eyebrow: "Contact",
